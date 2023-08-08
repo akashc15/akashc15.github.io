@@ -1,0 +1,13 @@
+function fib(n){
+    let a=0
+    let b=1
+    let x=a+b
+    console.log(a)
+    while(x<n){
+        console.log(x)
+        x=a+b
+        a=b
+        b=x
+    }
+
+}fib(100)
